@@ -1,0 +1,66 @@
+4:590  3:441  Found UEFI Acpi 2.0 RSDP at 5AFFE014
+4:590  0:000  Saving ACPI tables from RSDP 5AFFE014 to EFI\CLOVER\ACPI\origin ...
+4:590  0:000   5AFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+4:594  0:003    (Xsdt: 5AFBD188, Rsdt: 5AFBD0C4)
+4:594  0:000    5AFBD188: 'XSDT', 'CB-01', Rev: 1, Len: 244 -> XSDT.aml
+4:595  0:001    5AFBD0C4: 'RSDT', 'CB-01', Rev: 1, Len: 140 -> RSDT.aml
+4:597  0:001    Tables in Xsdt: 26
+4:597  0:000    0. 5AFEE000: 'FACP', 'CB-01', Rev: 5, Len: 268 -> FACP.aml
+4:600  0:002        (Dsdt: 5AFC8000, Facs: 5AF59000, XDsdt: 5AFC8000, XFacs: 0)
+4:600  0:000        5AFC8000: 'DSDT', 'CB-01', Rev: 2, Len: 141818 -> DSDT.aml
+4:614  0:014        5AF59000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+4:616  0:001    1. 5AFFD000: 'UEFI', 'CB-01', Rev: 1, Len: 566 -> UEFI.aml
+4:619  0:002    2. 5AFFC000: 'UEFI', 'CB-01', Rev: 1, Len: 66 -> UEFI.aml
+4:622  0:003    3. 5AFFB000: 'MSDM', 'CB-01', Rev: 3, Len: 85 -> MSDM.aml
+4:624  0:001    4. 5AFF7000: 'SSDT', 'CB-01', Rev: 2, Len: 12432 -> SSDT-0-CB-01.aml
+4:627  0:003    5. 5AFF3000: 'SSDT', 'CB-01', Rev: 2, Len: 14373 -> SSDT-1-CB-01.aml
+4:630  0:003    6. 5AFF2000: 'ASF!', 'CB-01', Rev: 32, Len: 165 -> ASF!.aml
+4:632  0:002    7. 5AFF1000: 'ASPT', 'CB-01', Rev: 7, Len: 52 -> ASPT.aml
+4:635  0:002    8. 5AFF0000: 'BOOT', 'CB-01', Rev: 1, Len: 40 -> BOOT.aml
+4:637  0:002    9. 5AFEF000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+4:640  0:002    10. 5AFED000: 'HPET', 'CB-01', Rev: 1, Len: 56 -> HPET.aml
+4:642  0:002    11. 5AFEC000: 'APIC', 'CB-01', Rev: 3, Len: 188 -> APIC.aml
+4:645  0:002    12. 5AFEB000: 'MCFG', 'CB-01', Rev: 1, Len: 60 -> MCFG.aml
+4:647  0:002    13. 5AFC7000: 'LPIT', 'CB-01', Rev: 1, Len: 148 -> LPIT.aml
+4:649  0:002    14. 5AFC6000: 'WSMT', 'CB-01', Rev: 1, Len: 40 -> WSMT.aml
+4:652  0:002    15. 5AFC5000: 'SSDT', 'CB-01', Rev: 2, Len: 671 -> SSDT-2-CB-01.aml
+4:654  0:002    16. 5AFC4000: 'SSDT', 'CB-01', Rev: 1, Len: 838 -> SSDT-3-CB-01.aml
+4:656  0:002    17. 5AFC0000: 'SSDT', 'CB-01', Rev: 2, Len: 12290 -> SSDT-4-CB-01.aml
+4:659  0:003    18. 5AFBF000: 'SSDT', 'CB-01', Rev: 2, Len: 1310 -> SSDT-5-CB-01.aml
+4:662  0:002    19. 5AFBE000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+4:665  0:003    20. 5AFBC000: 'DBG2', 'CB-01', Rev: 0, Len: 84 -> DBG2.aml
+4:668  0:002    21. 5AFBB000: 'SSDT', 'CB-01', Rev: 2, Len: 2851 -> SSDT-6-CB-01.aml
+4:670  0:002    22. 5AFBA000: 'DMAR', 'CB-01', Rev: 1, Len: 240 -> DMAR.aml
+4:672  0:002    23. 5AFB9000: 'NHLT', 'CB-01', Rev: 0, Len: 45 -> NHLT.aml
+4:675  0:002    24. 5AFB8000: 'FPDT', 'CB-01', Rev: 1, Len: 68 -> FPDT.aml
+4:677  0:002    25. 5AFB7000: 'BGRT', 'CB-01', Rev: 1, Len: 56 -> BGRT.aml
+4:679  0:001    Tables in Rsdt: 26
+4:679  0:000    0. 5AFEE000: 'FACP', 'CB-01', Rev: 5, Len: 268
+4:679  0:000        (Dsdt: 5AFC8000, Facs: 5AF59000, XDsdt: 5AFC8000, XFacs: 0)
+4:679  0:000        5AFC8000: 'DSDT', 'CB-01', Rev: 2, Len: 141818
+4:684  0:004        5AF59000: 'FACS', Ver: 2, Len: 64
+4:684  0:000    1. 5AFFD000: 'UEFI', 'CB-01', Rev: 1, Len: 566
+4:684  0:000    2. 5AFFC000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+4:684  0:000    3. 5AFFB000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+4:684  0:000    4. 5AFF7000: 'SSDT', 'CB-01', Rev: 2, Len: 12432
+4:684  0:000    5. 5AFF3000: 'SSDT', 'CB-01', Rev: 2, Len: 14373
+4:684  0:000    6. 5AFF2000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+4:684  0:000    7. 5AFF1000: 'ASPT', 'CB-01', Rev: 7, Len: 52
+4:684  0:000    8. 5AFF0000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+4:684  0:000    9. 5AFEF000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+4:684  0:000    10. 5AFED000: 'HPET', 'CB-01', Rev: 1, Len: 56
+4:684  0:000    11. 5AFEC000: 'APIC', 'CB-01', Rev: 3, Len: 188
+4:684  0:000    12. 5AFEB000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+4:684  0:000    13. 5AFC7000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+4:684  0:000    14. 5AFC6000: 'WSMT', 'CB-01', Rev: 1, Len: 40
+4:684  0:000    15. 5AFC5000: 'SSDT', 'CB-01', Rev: 2, Len: 671
+4:684  0:000    16. 5AFC4000: 'SSDT', 'CB-01', Rev: 1, Len: 838
+4:684  0:000    17. 5AFC0000: 'SSDT', 'CB-01', Rev: 2, Len: 12290
+4:684  0:000    18. 5AFBF000: 'SSDT', 'CB-01', Rev: 2, Len: 1310
+4:684  0:000    19. 5AFBE000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+4:684  0:000    20. 5AFBC000: 'DBG2', 'CB-01', Rev: 0, Len: 84
+4:684  0:000    21. 5AFBB000: 'SSDT', 'CB-01', Rev: 2, Len: 2851
+4:684  0:000    22. 5AFBA000: 'DMAR', 'CB-01', Rev: 1, Len: 240
+4:684  0:000    23. 5AFB9000: 'NHLT', 'CB-01', Rev: 0, Len: 45
+4:684  0:000    24. 5AFB8000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+4:684  0:000    25. 5AFB7000: 'BGRT', 'CB-01', Rev: 1, Len: 56
